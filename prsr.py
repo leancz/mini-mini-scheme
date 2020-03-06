@@ -52,7 +52,7 @@ def lexer(text):
                 index = index + 1
             quoted_list = quoted_list + ")"
             index = index + 1
-            lext.append(("Quoted List", quoted_list))
+            lext.append(("Quoted List", quoted_list[1:-1].split()))
             continue
             
         if text[index] == '"': # and not quoted is assumed
