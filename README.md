@@ -5,7 +5,7 @@ A really simple Scheme in Python
 
 > prsr.evaluate_code("(+ 2 (largest 3 (length '(1 2 3))))")
 
-9
+5
 
 
 
